@@ -1,0 +1,8 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+
+
+
+<p class="sub-title-landing txt-rotate"  data-period="2000"
+data-rotate='[ "Im a Web Developer" ]'><i class="fas fa-chevron-left fa-xs"></i> I'm a Web Developer /<i class="fas fa-chevron-right fa-xs"></i></p>
+
+<i class="fas fa-chevron-left fa-xs"></i> I'm a Web Developer /<i class="fas fa-chevron-right fa-xs"></i>
