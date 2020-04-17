@@ -1,12 +1,12 @@
 //Navigation scroll down
 
 $(window).scroll(function(){
-    $('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
 });
 
 
 $(window).scroll(function(){
-    if($(this).scrollTop() > 200){
+    if($(this).scrollTop() > 50){
         $('.txt-scroll').addClass('ncol');
     } else {
     $('.txt-scroll').removeClass('ncol');
@@ -15,7 +15,7 @@ $(window).scroll(function(){
 
 
 $(window).scroll(function(){
-    if($(this).scrollTop() > 200){
+    if($(this).scrollTop() > 50){
         $('.shadow-nav').addClass('shadow');
     } else {
     $('.shadow-nav').removeClass('shadow');
@@ -23,9 +23,7 @@ $(window).scroll(function(){
 });
 
 
-
 // landing page typewriter
-
 document.addEventListener('DOMContentLoaded',function(event){
         // array with texts to type in typewriter
         var dataText = ["\<\ I am a Web  Developer \/>\  "];
@@ -33,7 +31,7 @@ document.addEventListener('DOMContentLoaded',function(event){
         // type one text in the typwriter
         // keeps calling itself until the text is finished
         function typeWriter(text, i, fnCallback) {
-          // chekc if text isn't finished yet
+          // check if text isn't finished yet
           if (i < (text.length)) {
             // add next character to h1
            document.getElementById("typedtext").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
