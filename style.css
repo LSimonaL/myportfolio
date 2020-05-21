@@ -107,9 +107,13 @@ p {
     border-style: solid;
 }
 
+.title {
+  font-size: 3.4em;
+}
+
 .sub-title-landing {
   font-family: 'Roboto Mono', monospace;
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: 200;
   color: #f4f4f4;
   /* color: #FCA311; */
