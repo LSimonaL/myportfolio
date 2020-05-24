@@ -88,6 +88,32 @@ p {
     color:white;
 }
 
+@media (max-width: 575.98px) { 
+  .masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url("img/landing-page.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color:white;
+}
+ }
+
+@media (max-width: 767.98px) { 
+  .masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url("img/landing-page.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color:white;
+}
+ }
+
 .masthead::before {
     content: '';
     position: absolute;
