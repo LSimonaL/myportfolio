@@ -91,15 +91,12 @@ p {
 @media (max-width: 575.98px) { 
   .masthead {
     background-attachment: scroll !important;
-    background-position: left !important;
 }
  }
 
 @media (max-width: 767.98px) { 
   .masthead {
     background-attachment: scroll !important;
-    background-position: left !important;
-
 }
  }
 
