@@ -107,9 +107,13 @@ p {
     border-style: solid;
 }
 
+.title {
+  font-size: 3.4em;
+}
+
 .sub-title-landing {
   font-family: 'Roboto Mono', monospace;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 200;
   color: #f4f4f4;
   /* color: #FCA311; */
@@ -269,7 +273,7 @@ span {
       clip-path: inset(2rem);
     }
     .portfolio-item:hover .caption {
-      background-color: rgba(29, 128, 159, 0.9);
+      background-color: rgba(0, 0, 0, 0.3);
       -webkit-clip-path: inset(2rem);
       clip-path: inset(2rem);
     }
