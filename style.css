@@ -146,6 +146,8 @@ p {
 .social-media-landing i:hover {
   background: rgb(0, 0, 0);
   color: #ffffff;
+  -webkit-transition: all ease .6s;
+    transition: all ease .6s;
 }
 
 span {
@@ -178,14 +180,20 @@ span {
 
 .btn-cv {
     color: white;
-    background-color: #FCB33A;
-    font-weight: 600;
+    background-color: #007EA7;
+    /* background-color: #E69510; */
+    font-weight: 400;
+    border-radius: 1000px;
 
 }
 
 .btn-cv:hover {
-    color: white;
-    background-color:#E69510;
+    color: #007EA7;
+    /* color: #E69510; */
+    background-color: white;
+    border-color: #007EA7;
+    -webkit-transition: all ease .6s;
+    transition: all ease .6s;
 }
 
 /*---------------------------------------- Skills ----------------------------------------*/
@@ -210,24 +218,30 @@ span {
 }
 
 
-/* .skills-banner-cut {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-width: 0 100vw 6vw 0;
-    border-color:   #ffffff #ffffff transparent transparent  ;
-    border-style: solid;
+/* .skills-banner-cut-test {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-width: 10rem 100vw 0 0;
+  border-color: transparent #ffffff #ffffff transparent;
+  border-style: solid;
 } */
 
 
 
 .skill-color {
-    color: #E69510;
+    color: #f4f4f4;
 }
 
 .skill-txt {
-    color: white;
+    color: #f4f4f4;
     font-weight: 500;
+}
+
+.skills-container:hover {
+  transform: scale(1.1);
+  -webkit-transition: all ease .2s;
+    transition: all ease .2s;
 }
 
 /*---------------------------------------- Recent Projects ----------------------------------------*/
@@ -402,6 +416,8 @@ span {
 .social-media i:hover {
   background: #14213D;
   color: #ffffff;
+  -webkit-transition: all ease .6s;
+    transition: all ease .6s;
 }
 
 .copyright {
